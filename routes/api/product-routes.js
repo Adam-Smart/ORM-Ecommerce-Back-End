@@ -53,6 +53,7 @@ router.post('/', async (req, res) => {
   } catch (err) {
     res.status(400).json(err);
   }
+  
 
   Product.create(req.body)
     .then((product) => {
