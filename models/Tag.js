@@ -18,7 +18,7 @@ Tag.init(
       allowNull: false,
    
      },
-    // define columns
+ 
   },
   {
     sequelize,
